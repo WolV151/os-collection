@@ -1,10 +1,10 @@
 # os-collection
 Group of college projects for creating systemcalls for the xv6 operating system
 
--find.c - Find command, takes path to look recursevly and the file that is being looked for.
--head.c - Like the Linux version - "cat" the first 10 lines of a file
--ps.c - Current processes running
--trace - Systemcall (sysproc.c) - Minimal version of Linux "strace" call
+- find.c - Find command, takes path to look recursevly and the file that is being looked for.
+- head.c - Like the Linux version - "cat" the first 10 lines of a file
+- ps.c - Current processes running
+- trace - Systemcall (sysproc.c) - Minimal version of Linux "strace" call
 
 XV6 is not included. The files can be inserted into a folder containing the xv6 files and the following files need to be edited:
 - user.h - add system call placeholder
